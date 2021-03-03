@@ -24,6 +24,8 @@
     </head>
     <body>
         <div id="map"></div>
+
+        <script src="data/regions.js"></script>
         
         <script>
          var lamap = L.map("map").setView([34.048679618744664, -118.25313039127253], 12);
@@ -40,22 +42,84 @@
           * }).addTo(lamap);
           */
 
-         fetch("data/socal.geojson")
-             .then(function(response) {
-                 return response.json();
-             })
-             .then(function(data) {
-                 L.geoJSON(data).addTo(lamap);
+         function style(feature) {
+             return {
+                 weight: 2,
+                 opacity: 1,
+                 color: 'black',
+                 dashArray: '3',
+                 fillOpacity: 0.7,
+                 fillColor: '#FFEDA0'
+             };
+         }
+         
+         function highlightFeature(e) {
+             var layer = e.target;
+
+             layer.setStyle({
+                 weight: 5,
+                 color: '#666',
+                 dashArray: '',
+                 fillOpacity: 0.7
              });
 
-         fetch("data/neighborhoods.geojson")
-             .then(function(response) {
-                 return response.json();
-             })
-             .then(function(data) {
-                 L.geoJSON(data).addTo(lamap);
-             });
+             if(!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+                 layer.bringToFront();
+             }
+         }
 
+         var geojson;
+
+         function resetHighlight(e) {
+             geojson.resetStyle(e.target);
+         }
+
+         function zoomToFeature(e) {
+             lamap.fitBounds(e.target.getBounds());
+         }
+
+         function onEachFeature(feature, layer) {
+             layer.on({
+                 mouseover: highlightFeature,
+                 mouseout: resetHighlight,
+                 click: zoomToFeature
+             });
+         }
+
+         var geojson = L.geoJson(regions, {
+             style: style,
+             onEachFeature: onEachFeature
+         }).addTo(lamap);
+         
+         // add the greater SoCal layer
+         /* var socal_geojson = L.geoJson(socal, {
+          *     style: style,
+          *     onEachFeature: onEachFeature
+          * }); */
+         /* var socal = fetch("data/socal.geojson")
+          *     .then(function(response) {
+          *         return response.json();
+          *     })
+          *     .then(function(data) {
+          *         L.geoJSON(data).addTo(lamap);
+          *     });
+          */
+
+         // add LA neighborhoods
+         /* var neighborhoods_geojson = L.geoJson(neighborhoods, {
+          *     style: style,
+          *     onEachFeature: onEachFeature
+          * }); */
+         /* var neighborhoods = fetch("data/neighborhoods.geojson")
+          *     .then(function(response) {
+          *         return response.json();
+          *     })
+          *     .then(function(data) {
+          *         L.geoJSON(data).addTo(lamap);
+          *     }); */
+         
+         // geojson = L.layerGroup([socal_geojson, neighborhoods_geojson]).addTo(lamap);
+         
         </script>
     </body>
 </html>
