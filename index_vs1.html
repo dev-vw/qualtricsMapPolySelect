@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Los Angeles County Neighborhood and Surrounds</title>
+        <meta name="viewport" content="width=device-width, 
+                    initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+              integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+              crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+                integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+                crossorigin=""></script>
+        <style>
+         body {
+             padding: 0;
+             margin: 0;
+         }
+         
+         html, body, #map {
+             height: 100%;
+             width: 100%;
+         }
+
+         .info {
+             padding: 6px 8px;
+             font: 14px/16px Arial, Helvetica, sans-serif;
+             background: white;
+             background: rgba(255,255,255,0.8);
+             box-shadow: 0 0 15px rgba(0,0,0,0.2);
+             border-radius: 5px;
+         }
+
+         .info h4 {
+             margin: 0 0 5px;
+             color: #777;
+         }
+        </style>
+    </head>
+    <body>
+        <div id="map"></div>
+
+        <script src="https://people.geog.ucsb.edu/~vaniawang/data/js/regions.js"></script>
+        <!--       <script src="data/js/neighborhoods.js"></script> -->
+        <script src="https://people.geog.ucsb.edu/~vaniawang/data/js/neighborhoods.js"></script>
+        <script src="data/js/counties.js"></script>
+        <script src="data/js/la-exterior.js"></script>
+        
+        <script>
+         var map = L.map("map").setView([34.048679618744664, -118.25313039127253], 8);
+
+         L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_nolabels/{z}/{x}/{y}.png", {
+             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attribution/">CartoDB</a>',
+             subdomains: "abcd",
+             maxZoom: 19
+         }).addTo(map);
+
+         // -- CHANGE --
+         // -- DON'T FORGET THE CSS!!!
+         var info = L.control();
+
+         info.onAdd = function (map) {
+             this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
+             this.update();
+             return this._div;
+         };
+
+         // method that we will use to update the control based on feature properties passed
+         info.update = function (props) {
+             this._div.innerHTML = '<h4>Regions and neighborhoods of LA/Orange Counties</h4>' +  (props ?
+                                                                                                  '<b>Name of region/neighborhood:</b><br />' + props.name
+                                                                                                : 'Hover over a region/neighborhood');
+         };
+         
+         // alternative from above, to change text in the hover box
+         /* info.update = function (props) {
+          *     var statement;
+          *     if (props.kind == "L.A. County Neighborhood (V6)") {
+          *         statement = '<b>Name of neighborhood:</b><br />' + props.name;
+          *     } else if (props.kind == "L.A. County Region (V6)") {
+          *         statement = '<b>Name of region:</b><br />' + props.name;
+          *     } else {
+          *         statement = 'Hover over a region/neighborhood';
+          *     }
+          *     
+          *     this._div.innerHTML = '<h4>Regions and neighborhoods of LA/Orange Counties</h4>' + statement;
+          * }; */
+         
+         info.addTo(map);
+         // -- CHANGE --
+
+         var selected;
+         
+         function style(feature) {
+             return {
+                 weight: 1,
+                 opacity: 1,
+                 color: 'black',
+                 dashArray: '',
+                 fillOpacity: 0.7,
+                 fillColor: '#FFB409'
+             };
+         }
+
+         function neighborhoodStyle(feature) {
+             return {
+                 weight: 1,
+                 opacity: 1,
+                 color: 'black',
+                 dashArray: '',
+                 fillOpacity: 1,
+                 fillColor: '#2887AE'
+             };
+         }
+
+         // -- CHANGE --
+         function exteriorStyle(feature) {
+             return {
+                 weight: 1,
+                 opacity: 1,
+                 color: 'black',
+                 dashArray: '',
+                 fillOpacity: 1,
+                 fillColor: '#b3b3b3'
+             };
+         }
+         // -- CHANGE --
+         
+         function highlightFeature(e) {
+             var layer = e.target;
+
+             // -- CHANGE --
+             info.update(layer.feature.properties);
+             // -- CHANGE --
+
+             // -- CHANGE --
+
+             if (e.target.feature.properties.kind == "L.A. County Neighborhood (V6)") {
+                 layer.setStyle({
+                     weight: 3,
+                     opacity: 1,
+                     color: 'black',
+                     dashArray: '',
+                     fillOpacity: 1,
+                     fillColor: '#2887AE'
+                 });
+             } else if (e.target.feature.properties.kind == undefined) {
+                 layer.setStyle({
+                     weight: 3,
+                     opacity: 1,
+                     color: 'black',
+                     dashArray: '',
+                     fillOpacity: 1,
+                     fillColor: '#b3b3b3'
+                 });
+             } else {
+                 layer.setStyle({
+                     weight: 3,
+                     opacity: 1,
+                     color: 'black',
+                     dashArray: '',
+                     fillOpacity: 0.4
+                 });
+             }
+             // -- CHANGE --
+             
+             /* layer.setStyle({
+              *     weight: 2,
+              *     color: '#666',
+              *     dashArray: '',
+              *     fillOpacity: 0.4
+              * });
+              */
+
+             /* if(!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+              *     layer.bringToFront();
+              * } */
+         }
+
+         function zoomToFeature(e) {
+             map.fitBounds(e.target.getBounds());
+         }
+         
+         /* function zoomToFeature(e) {
+          *     if (curr_layer == "counties") {
+          *         map.fitBounds(e.target.getBounds());
+          *     }
+          *     else if (curr_layer == "regions") {
+          *         toggleNeighborhoods(e, is_toggled);
+          *     }
+          *     else if (curr_layer = "neighborhoods") {
+          *         map.fitBounds(e.target.getBounds());
+          *     }
+          * }
+          */
+         function resetHighlight(e) {
+             info.update();
+
+             
+             la_neighborhoods.setStyle(neighborhoodStyle);
+             exterior.setStyle(exteriorStyle);
+             regions.setStyle(style);
+             
+             
+             /* regions.setStyle(style);
+              * exterior.setStyle(exteriorStyle);
+              * la_neighborhoods.setStyle(neighborhoodStyle);
+              * if (e.target.properties.objectID != selected) {
+              *     alert("error");
+              *     e.target.setStyle({
+              *         weight: 5,
+              *         opacity: 1,
+              *         color: 'black',
+              *         dashArray: '',
+              *         fillOpacity: 1,
+              *         fillColor: '#2887AE'
+              *     });
+              * }
+              */
+
+             //geojson.resetStyle();
+         }
+         
+         function toggleNeighborhoods(e, is_toggled) {
+             if (is_toggled == 0) {
+                 map.fitBounds(e.target.getBounds());
+                 la_neighborhoods = L.geoJson(neighborhoods, {
+                     style: neighborhoodStyle,
+                     filter: function(feature, layer) {
+                         return feature.properties.metadata.region == e.target.feature.properties.metadata.slug;
+                     },
+                     onEachFeature: onEachFeature
+                 });
+                 map.addLayer(la_neighborhoods);
+                 // is_toggled = 1;
+                 // curr_layer = "neighborhoods";
+             } else {
+                 // curr_layer = "regions";
+                 map.removeLayer(la_neighborhoods);
+                 // is_toggled = 0;
+             }
+         }
+
+         // TODO 6/7/2021
+         /* function highlightNeighborhood(e, optionID) {
+          *     alert("here!!!!")
+          *     selectedNeighborhood = L.geoJson(neighborhoods, {
+          *         style: {
+          *             weight: 3,
+          *             opacity: 1,
+          *             color: 'black',
+          *             dashArray: '',
+          *             fillOpacity: 1,
+          *             fillColor: '#2887AE'
+
+          *         },
+          *         filter: function(feature, layer) {
+          *             e.target.feature.properties.objectID == optionID;
+          *         }
+          *     });
+          *     map.addLayer(selectedNeighborhood);
+          * } */
+         
+         // backup version
+         /* function toggleNeighborhoods(e, is_toggled) {
+          *     if (curr_layer == "counties") {
+          *         map.fitBounds(e.target.getBounds());
+          *     }
+          *     else if (curr_layer == "regions") {
+          *         map.fitBounds(e.target.getBounds());
+          *         curr_layer = "neighborhoods";
+          *         alert(e.target.feature.properties.metadata.slug);
+          *         map.removeLayer(geojson);
+          *         L.geoJson(la_neighborhoods, {
+          *             style: style,
+          *             filter: function(feature, layer) {
+          *                 return feature.properties.metadata.region == e.target.feature.properties.metadata.slug;
+          *             },
+          *             onEachFeature: onEachFeature
+          *         }).addTo(map);
+          *     }
+          *     else if (curr_layer = "neighborhoods") {
+          *         map.fitBounds(e.target.getBounds());
+          *     }
+          * }
+          */
+
+         // backup version
+         /* function onEachFeature(feature, layer) {
+          *     layer.on({
+          *         mouseover: highlightFeature,
+          *         mouseout: resetHighlight,
+          *         click: zoomToFeature
+          *     });
+          * }
+          */
+
+         function onEachFeature(feature, layer) {
+             layer.on({
+                 mouseover: function(e) {
+                     if (e.target.feature.properties.objectID == selected && e.target.feature.properties.kind == "L.A. County Neighborhood (V6)") {
+                         e.target.setStyle({
+                             weight: 5,
+                             opacity: 1,
+                             color: 'black',
+                             dashArray: '',
+                             fillOpacity: 1,
+                             fillColor: '#2887AE'
+                         });
+                     } else {
+                         highlightFeature(e);
+                     }
+                 },
+                 mouseout: function(e) {
+
+                     if (selected == undefined) {
+                         resetHighlight(e);
+                     }
+                 },
+                 click: function(e) {
+                     alert(feature.properties.kind);
+
+                     if (is_toggled == 0) {
+                         toggleNeighborhoods(e, is_toggled);
+                         if (is_toggled == 1) {
+                             is_toggled = 0;
+                         } else {
+                             is_toggled = 1;
+                         }
+                     } else if (is_toggled == 1 && e.target.feature.properties.kind == "L.A. County Neighborhood (V6)") {
+                         if (feature.properties.objectID === selected) {
+                             alert('undefined');
+                             la_neighborhoods.resetStyle(e.target);
+                             /* var selectedNeighborhood = L.geoJson(neighborhoods, {
+                              *     style: {
+                              *         weight: 5,
+                              *         opacity: 1,
+                              *         color: 'black',
+                              *         dashArray: '',
+                              *         fillOpacity: 1,
+                              *         fillColor: '#2887AE'
+                              *     },
+                              *     filter: function(feature, layer) {
+                              *         return feature.properties.objectID == optionID;
+                              *     },
+                              * });
+                              * map.addLayer(selectedNeighborhood);
+                              * if(!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+                              *     selectedNeighborhood.bringToFront();
+                              * }
+                              * alert(layerArray[feature.properties.objectID]); */
+                         } else {
+                             e.target.setStyle({
+                                 weight: 5,
+                                 opacity: 1,
+                                 color: 'black',
+                                 dashArray: '',
+                                 fillOpacity: 1,
+                                 fillColor: '#2887AE'
+                             });
+
+                         }
+                         
+                         /* la_neighborhoods.eachLayer(function(l) {
+                          *     la_neighborhoods.resetStyle(l);
+                          * }); */
+                         
+                         
+                         if(!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+                             e.target.bringToFront();
+                         }
+                         
+
+                         selected = feature.properties.objectID;
+                         alert("selected: " + selected);
+                         zoomToFeature(e);
+                     } else if (is_toggled == 1 && e.target.feature.properties.kind == "L.A. County Region (V6)") {
+                         alert("step 2");
+                         toggleNeighborhoods(e, is_toggled);
+                         if (is_toggled == 1) {
+                             is_toggled = 0;
+                         } else {
+                             is_toggled = 1;
+                         }
+                         // -- CHANGE --
+                     } else if (is_toggled == 1 && e.target.feature.properties.kind == undefined) {
+                         alert("step 2")
+                         toggleNeighborhoods(e, is_toggled);
+                         if (is_toggled == 1) {
+                             is_toggled = 0;
+                         } else {
+                             is_toggled = 1;
+                         }
+                     }
+                     // -- CHANGE --
+                 }
+             });
+         }
+         
+         var regions = L.geoJson(regions, {
+             style: style,
+             onEachFeature: onEachFeature
+         });
+
+         // -- CHANGE --
+         // also change the style!!!
+         var exterior = L.geoJson(la_exterior, {
+             style: exteriorStyle,
+             onEachFeature: onEachFeature
+         });
+         // -- CHANGE --
+
+         // -- CHANGE --
+         // also change the style!!!
+         var la_neighborhoods = L.geoJson(neighborhoods, {
+             style: neighborhoodStyle,
+             onEachFeature: onEachFeature
+         });
+         // -- CHANGE --
+         
+         var is_toggled = 0;
+         
+         // -- CHANGE --
+         // var curr_layer = "regions";
+         // var selectedNeighborhood;
+         // -- CHANGE --
+         
+         // -- CHANGE --
+         // var geojson = regions;
+         var geojson = L.featureGroup([regions, exterior]);
+         // -- CHANGE --
+         
+         map.addLayer(geojson);
+         
+         // map_layers = L.layerGroup([neighborhoods]).addTo(map);
+         
+         /* map.on('zoomend', function(e) {
+          *     if (map.getZoom() < 6) {
+          *         curr_layer = "counties";
+          *         map.removeLayer(geojson);
+          *         geojson = counties;
+          *         geojson.addTo(map);
+          *     }
+          *     else if (map.getZoom() >= 6 && map.getZoom() < 11) {
+          *         curr_layer = "regions";
+          *         map.removeLayer(geojson);
+          *         geojson = regions;
+          *         geojson.addTo(map);
+          *     }
+          *     else {
+          *         curr_layer = "neighborhoods";
+          *         map.removeLayer(geojson);
+          *         geojson = neighborhoods;
+          *         geojson.addTo(map);
+          *     }
+          * }); */
+         
+         // Add the greater SoCal layer
+         /* var socal_geojson = L.geoJson(socal, {
+          *     style: style,
+          *     onEachFeature: onEachFeature
+          * }); */
+         /* var socal = fetch("data/socal.geojson")
+          *     .then(function(response) {
+          *         return response.json();
+          *     })
+          *     .then(function(data) {
+          *         L.geoJSON(data).addTo(map);
+          *     });
+          */
+
+         // add LA neighborhoods
+         /* var neighborhoods_geojson = L.geoJson(neighborhoods, {
+          *     style: style,
+          *     onEachFeature: onEachFeature
+          * }); */
+         /* var neighborhoods = fetch("data/neighborhoods.geojson")
+          *     .then(function(response) {
+          *         return response.json();
+          *     })
+          *     .then(function(data) {
+          *         L.geoJSON(data).addTo(map);
+          *     }); */
+         
+         // geojson = L.layerGroup([socal_geojson, neighborhoods_geojson]).addTo(map);
+         
+        </script>
+    </body>
+</html>
