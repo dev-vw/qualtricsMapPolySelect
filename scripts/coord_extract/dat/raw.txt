@@ -1,0 +1,1906 @@
+if (choiceArray[1]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.18575898913112);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.49558240532869);
+};
+
+
+if (choiceArray[2]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.30031366821902);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.03136317646977);
+};
+
+
+if (choiceArray[3]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.76056324304635);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.15108528684858);
+};
+
+
+if (choiceArray[4]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.3123856711333);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.510665556605694);
+};
+
+
+if (choiceArray[5]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.13547146347817);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.083993973052166);
+};
+
+
+if (choiceArray[6]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.74280981425893);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.5437604892717);
+};
+
+
+if (choiceArray[7]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.72995962978567);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.57793596925508);
+};
+
+
+if (choiceArray[8]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.33495526561711);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.88848740491664);
+};
+
+
+if (choiceArray[9]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.1355545510571);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.19344425696991);
+};
+
+
+if (choiceArray[10]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.8588897338214);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.838598766820056);
+};
+
+
+if (choiceArray[11]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.90888596770684);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.290019644404794);
+};
+
+
+if (choiceArray[12]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.03731281382825);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.13415261385594);
+};
+
+
+if (choiceArray[13]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.43214492192578);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.24130770482231);
+};
+
+
+if (choiceArray[14]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.32143387216124);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.043828896290606);
+};
+
+
+if (choiceArray[15]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.08062708115627);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.86762322069855);
+};
+
+
+if (choiceArray[16]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.30324414575624);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.92348191696546);
+};
+
+
+if (choiceArray[17]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.26505501377596);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.12605308415108);
+};
+
+
+if (choiceArray[18]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.33122981858854);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.334025534650536);
+};
+
+
+if (choiceArray[19]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.00357802201796);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.038306870941945);
+};
+
+
+if (choiceArray[20]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.91216179385182);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.1390721614061);
+};
+
+
+if (choiceArray[21]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.35466410636799);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.015477895795016);
+};
+
+
+if (choiceArray[22]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.9719278660874);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.08296450952115);
+};
+
+
+if (choiceArray[23]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.46112201130418);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.099257627129596);
+};
+
+
+if (choiceArray[24]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.12704219621928);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.88792699550226);
+};
+
+
+if (choiceArray[25]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.15501099551452);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.966281502485);
+};
+
+
+if (choiceArray[26]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.17992739045002);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.97977698986165);
+};
+
+
+if (choiceArray[27]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.42695944475567);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.11169504649449);
+};
+
+
+if (choiceArray[28]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.37129340042695);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.07564317520632);
+};
+
+
+if (choiceArray[29]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.40210538605285);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.07857664822033);
+};
+
+
+if (choiceArray[30]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.39375068224284);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.044733060223685);
+};
+
+
+if (choiceArray[31]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.2089104370735);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.038546765946876);
+};
+
+
+if (choiceArray[32]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.96827270431154);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.1533692672766);
+};
+
+
+if (choiceArray[33]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.85865047504124);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.92927769649733);
+};
+
+
+if (choiceArray[34]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.49512624004342);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.08857834270349);
+};
+
+
+if (choiceArray[35]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.27484784178553);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.94151250763507);
+};
+
+
+if (choiceArray[36]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.00446375124696);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.85738656430313);
+};
+
+
+if (choiceArray[37]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.3234596915032);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.18793922974202);
+};
+
+
+if (choiceArray[38]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.67747341822805);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.14139588352521);
+};
+
+
+if (choiceArray[39]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.6005567601029);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.20909801763775);
+};
+
+
+if (choiceArray[40]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.25618844897599);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.837611315025455);
+};
+
+
+if (choiceArray[41]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.36951932889684);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.058100467005396);
+};
+
+
+if (choiceArray[42]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.45756963538447);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.55062489430138);
+};
+
+
+if (choiceArray[43]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.63142165239722);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.47690592647647);
+};
+
+
+if (choiceArray[44]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.24774694267771);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.00519598138145);
+};
+
+
+if (choiceArray[45]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.41553887598364);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.05497108686153);
+};
+
+
+if (choiceArray[46]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.06869001769866);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.867854005710186);
+};
+
+
+if (choiceArray[47]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.8563578773674);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.10243468889655);
+};
+
+
+if (choiceArray[48]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.60105757017656);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.257305200298156);
+};
+
+
+if (choiceArray[49]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.63033735572408);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.232349738723634);
+};
+
+
+if (choiceArray[50]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.31325851362087);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.983794873538386);
+};
+
+
+if (choiceArray[51]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.40913183407594);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.04032031094158);
+};
+
+
+if (choiceArray[52]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.23497437462282);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.063786169555776);
+};
+
+
+if (choiceArray[53]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.89088237868401);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.11542456572807);
+};
+
+
+if (choiceArray[54]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.72074753497157);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.12957543817774);
+};
+
+
+if (choiceArray[55]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.54608167396859);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.6965540076891);
+};
+
+
+if (choiceArray[56]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.15188897974254);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.99622414985526);
+};
+
+
+if (choiceArray[57]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.22769302880651);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.893075068682585);
+};
+
+
+if (choiceArray[58]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.9138121149566);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.66681541758596);
+};
+
+
+if (choiceArray[59]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.58656370136377);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.59668733945707);
+};
+
+
+if (choiceArray[60]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.88071712071113);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.08977507413353);
+};
+
+
+if (choiceArray[61]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.18314872523169);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.96307882562818);
+};
+
+
+if (choiceArray[62]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.39676241570864);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.00573002396965);
+};
+
+
+if (choiceArray[63]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.03857811948062);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.8170677373772);
+};
+
+
+if (choiceArray[64]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.22453149894612);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.09100085385685);
+};
+
+
+if (choiceArray[65]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.69639879057762);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.473159304002536);
+};
+
+
+if (choiceArray[66]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.36929349125718);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.91667620712249);
+};
+
+
+if (choiceArray[67]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.42387170946088);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.98969773942609);
+};
+
+
+if (choiceArray[68]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.1535335506255);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.59023724917701);
+};
+
+
+if (choiceArray[69]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.81628937595019);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.999033433217676);
+};
+
+
+if (choiceArray[70]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.13107301910003);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.937806580358505);
+};
+
+
+if (choiceArray[71]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.2458803246595);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.038951882383714);
+};
+
+
+if (choiceArray[72]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.9504902263783);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.160961616221684);
+};
+
+
+if (choiceArray[73]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.20781119293478);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.13622936200048);
+};
+
+
+if (choiceArray[74]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.19538070258682);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.895036093266945);
+};
+
+
+if (choiceArray[75]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.29721448166806);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.08864702409793);
+};
+
+
+if (choiceArray[76]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.16912961721346);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.03263318230732);
+};
+
+
+if (choiceArray[77]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.07757375307595);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.13775868391178);
+};
+
+
+if (choiceArray[78]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.07914829460871);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.115401462192764);
+};
+
+
+if (choiceArray[79]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.98863195157313);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.924319346946305);
+};
+
+
+if (choiceArray[80]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.2563998483973);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.07896428197963);
+};
+
+
+if (choiceArray[81]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.37970915446994);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.659515290886446);
+};
+
+
+if (choiceArray[82]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.02898106145334);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.07387361561654);
+};
+
+
+if (choiceArray[83]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.40203291690807);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.91694485298468);
+};
+
+
+if (choiceArray[84]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.17580230914338);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.07907638149533);
+};
+
+
+if (choiceArray[85]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.23819193195172);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.07894300740766);
+};
+
+
+if (choiceArray[86]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.24193709838285);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.097528310944895);
+};
+
+
+if (choiceArray[87]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.80810810513556);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.553821162295726);
+};
+
+
+if (choiceArray[88]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.50203631401618);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.15210961943879);
+};
+
+
+if (choiceArray[89]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.30168213524803);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.01757623804638);
+};
+
+
+if (choiceArray[90]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.35230363245216);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.07911490966992);
+};
+
+
+if (choiceArray[91]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.24441175636619);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.96770891523907);
+};
+
+
+if (choiceArray[92]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.26853993999185);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.97463973035939);
+};
+
+
+if (choiceArray[93]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.95141173190972);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.71044294867901);
+};
+
+
+if (choiceArray[94]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.9278571908836);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.884039747209464);
+};
+
+
+if (choiceArray[95]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.30721463393903);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.89438036661645);
+};
+
+
+if (choiceArray[96]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.96032673680398);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.77880097602895);
+};
+
+
+if (choiceArray[97]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.2358967834356);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.11466334741747);
+};
+
+
+if (choiceArray[98]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.24675521422098);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.18188662065384);
+};
+
+
+if (choiceArray[99]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.84687885136823);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.144908717375614);
+};
+
+
+if (choiceArray[100]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.30940848971018);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.95127749166289);
+};
+
+
+if (choiceArray[101]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.50511436360905);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.290368464916526);
+};
+
+
+if (choiceArray[102]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.26190408981509);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.94120993921769);
+};
+
+
+if (choiceArray[103]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.41049415941762);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.61930751634674);
+};
+
+
+if (choiceArray[104]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.29390808697772);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.137040655380154);
+};
+
+
+if (choiceArray[105]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.97475088236239);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.998054468789995);
+};
+
+
+if (choiceArray[106]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.33496392537096);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.072710804973106);
+};
+
+
+if (choiceArray[107]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.38101336209081);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.266882615273076);
+};
+
+
+if (choiceArray[108]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.29764604525585);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.79312230413714);
+};
+
+
+if (choiceArray[109]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.29474380477237);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.86628392239584);
+};
+
+
+if (choiceArray[110]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.30671238020439);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.04503988222087);
+};
+
+
+if (choiceArray[111]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.30459436993759);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.98391743873165);
+};
+
+
+if (choiceArray[112]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.6628721624673);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.471722422115064);
+};
+
+
+if (choiceArray[113]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.07306475389399);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.830266760396796);
+};
+
+
+if (choiceArray[114]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.34742110471569);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.914657213871735);
+};
+
+
+if (choiceArray[115]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.39646910425843);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.86532108133744);
+};
+
+
+if (choiceArray[116]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.66111836067327);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.16367933524007);
+};
+
+
+if (choiceArray[117]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.19262516625751);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.11563483753963);
+};
+
+
+if (choiceArray[118]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.26749129452125);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.01709985707961);
+};
+
+
+if (choiceArray[119]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.32946468207987);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.12685914067801);
+};
+
+
+if (choiceArray[120]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.37132680930118);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.10995529953705);
+};
+
+
+if (choiceArray[121]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.33061047034909);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.09498657877691);
+};
+
+
+if (choiceArray[122]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.00500790014682);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.6955316162647);
+};
+
+
+if (choiceArray[123]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.21660553075488);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.97998413869089);
+};
+
+
+if (choiceArray[124]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.32981371045373);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.98613993671223);
+};
+
+
+if (choiceArray[125]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.92690275857865);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.01785703999314);
+};
+
+
+if (choiceArray[126]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.34441850076544);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.95652850421965);
+};
+
+
+if (choiceArray[127]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.77484183809669);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.677967774685186);
+};
+
+
+if (choiceArray[128]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.9637414013217);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.11204468681845);
+};
+
+
+if (choiceArray[129]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.32223712684204);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.029135476361965);
+};
+
+
+if (choiceArray[130]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.30228888613235);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.06395690770654);
+};
+
+
+if (choiceArray[131]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.20010835748907);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.20973235198877);
+};
+
+
+if (choiceArray[132]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.23530604256845);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.23220510920659);
+};
+
+
+if (choiceArray[133]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.37396525452934);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.997241829758025);
+};
+
+
+if (choiceArray[134]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.6415651347393);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.54960610583247);
+};
+
+
+if (choiceArray[135]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.76126694858256);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.54476862861171);
+};
+
+
+if (choiceArray[136]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.78590834388551);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.5826770896587);
+};
+
+
+if (choiceArray[137]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.69913393565172);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.59185563225731);
+};
+
+
+if (choiceArray[138]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.70490929127331);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.52748533081725);
+};
+
+
+if (choiceArray[139]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.72805265815335);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.60913266980362);
+};
+
+
+if (choiceArray[140]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.9515595679739);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.9598707856433);
+};
+
+
+if (choiceArray[141]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.95153856581334);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.92813651684307);
+};
+
+
+if (choiceArray[142]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.5066319717592);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.20202265275629);
+};
+
+
+if (choiceArray[143]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.67483647386385);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.65626742277261);
+};
+
+
+if (choiceArray[144]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.45012042805354);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.682302046158775);
+};
+
+
+if (choiceArray[145]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.83576719620238);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.61473494070181);
+};
+
+
+if (choiceArray[146]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.36499821432471);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.28080418462969);
+};
+
+
+if (choiceArray[147]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.12205474183534);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.846971824406985);
+};
+
+
+if (choiceArray[148]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.00930900685924);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.90245604819556);
+};
+
+
+if (choiceArray[149]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.17410029749946);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.69266303762296);
+};
+
+
+if (choiceArray[150]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.04065707875819);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.850368515764046);
+};
+
+
+if (choiceArray[151]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.95328487190875);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.03226501744998);
+};
+
+
+if (choiceArray[152]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.31760119943641);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.079871166975366);
+};
+
+
+if (choiceArray[153]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.62404564759869);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.58260785998071);
+};
+
+
+if (choiceArray[154]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.77077768324108);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.120473189286216);
+};
+
+
+if (choiceArray[155]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.35316008985062);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.8884611416935);
+};
+
+
+if (choiceArray[156]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.32666238820948);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.012239951170436);
+};
+
+
+if (choiceArray[157]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.35862615009584);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.93814528041715);
+};
+
+
+if (choiceArray[158]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.29350915252685);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.61219632812436);
+};
+
+
+if (choiceArray[159]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.67888538254381);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.72867034046423);
+};
+
+
+if (choiceArray[160]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.21235165932782);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.071787366394744);
+};
+
+
+if (choiceArray[161]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.98092288266487);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.5231698919013);
+};
+
+
+if (choiceArray[162]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.31747197505743);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.79336632435945);
+};
+
+
+if (choiceArray[163]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.1606889183118);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.80528441267438);
+};
+
+
+if (choiceArray[164]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.38521908761051);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.30220454077771);
+};
+
+
+if (choiceArray[165]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.0593406516779);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.79710603805132);
+};
+
+
+if (choiceArray[166]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.28771355633673);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.10848174985438);
+};
+
+
+if (choiceArray[167]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.20126524521238);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.92401536010431);
+};
+
+
+if (choiceArray[168]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.78412714403488);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.036739469348824);
+};
+
+
+if (choiceArray[169]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.3090173178634);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.967280092478404);
+};
+
+
+if (choiceArray[170]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.39715723260858);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.889465332744344);
+};
+
+
+if (choiceArray[171]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.44780493414521);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.976731213690336);
+};
+
+
+if (choiceArray[172]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.43542480518711);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.00938946490138);
+};
+
+
+if (choiceArray[173]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.00347369779169);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.119221406516914);
+};
+
+
+if (choiceArray[174]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.18784782353322);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.98859825515566);
+};
+
+
+if (choiceArray[175]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.36057939759365);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.04125882528049);
+};
+
+
+if (choiceArray[176]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.98500843935757);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.744971154653314);
+};
+
+
+if (choiceArray[177]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.34523687960767);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.05754662849002);
+};
+
+
+if (choiceArray[178]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.45986205443192);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.26690029724219);
+};
+
+
+if (choiceArray[179]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.65447719369227);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.60833658964556);
+};
+
+
+if (choiceArray[180]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.99213194179279);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.165028871401596);
+};
+
+
+if (choiceArray[181]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.1108688127237);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.015204720068965);
+};
+
+
+if (choiceArray[182]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.19344463618052);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.09370367679445);
+};
+
+
+if (choiceArray[183]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.13255183771797);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.0497309679644);
+};
+
+
+if (choiceArray[184]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.21680342197062);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.10343588611236);
+};
+
+
+if (choiceArray[185]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.8697713732109);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.61603052777539);
+};
+
+
+if (choiceArray[186]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.8552248335599);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.68372146904893);
+};
+
+
+if (choiceArray[187]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.02385628565116);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.10293614090866);
+};
+
+
+if (choiceArray[188]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.47825129849372);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.238690418005646);
+};
+
+
+if (choiceArray[189]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.37802535704479);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.18096416782546);
+};
+
+
+if (choiceArray[190]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.52980832432497);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.23892180722457);
+};
+
+
+if (choiceArray[191]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.79470336925556);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.764788378867685);
+};
+
+
+if (choiceArray[192]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.42842872604315);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.75958238093376);
+};
+
+
+if (choiceArray[193]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.17128226079559);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.62554598775598);
+};
+
+
+if (choiceArray[194]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.02640168811237);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.00670422093782);
+};
+
+
+if (choiceArray[195]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.08287300585798);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.9069084449584);
+};
+
+
+if (choiceArray[196]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.82222015582758);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.804635786340626);
+};
+
+
+if (choiceArray[197]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.54613897506897);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.07838353283591);
+};
+
+
+if (choiceArray[198]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.41632147925142);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.26376700889662);
+};
+
+
+if (choiceArray[199]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.0866596937148);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.59803712049932);
+};
+
+
+if (choiceArray[200]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.40962025202282);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.024958070467015);
+};
+
+
+if (choiceArray[201]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.39757954890192);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.787069811571165);
+};
+
+
+if (choiceArray[202]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.44538574000924);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.224328057201824);
+};
+
+
+if (choiceArray[203]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.16503819295957);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.89765588580699);
+};
+
+
+if (choiceArray[204]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.13551023160751);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.16127842364806);
+};
+
+
+if (choiceArray[205]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.08862282036353);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.9903136426592);
+};
+
+
+if (choiceArray[206]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.3866402005959);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.053821708534194);
+};
+
+
+if (choiceArray[207]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.28677643611316);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.04454006883228);
+};
+
+
+if (choiceArray[208]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.85521118259751);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.88080326053329);
+};
+
+
+if (choiceArray[209]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.4388173161257);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.950099190067384);
+};
+
+
+if (choiceArray[210]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.41496586058308);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.97868058179915);
+};
+
+
+if (choiceArray[211]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.76535300334687);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.05845053895307);
+};
+
+
+if (choiceArray[212]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.54759979926263);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.278373126307095);
+};
+
+
+if (choiceArray[213]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.21632881544993);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.65268311607538);
+};
+
+
+if (choiceArray[214]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.218393193528);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.85818863508432);
+};
+
+
+if (choiceArray[215]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.36364764350746);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.75512327105675);
+};
+
+
+if (choiceArray[216]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.42589681019348);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.03432905601529);
+};
+
+
+if (choiceArray[217]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.59876830165979);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.63186029726649);
+};
+
+
+if (choiceArray[218]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.37676705466428);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.85713039081886);
+};
+
+
+if (choiceArray[219]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.54033708003807);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.20362003881141);
+};
+
+
+if (choiceArray[220]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.69642515184351);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.65656335667456);
+};
+
+
+if (choiceArray[221]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.35067224754249);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.77861279038228);
+};
+
+
+if (choiceArray[222]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.34855094721117);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.76254370906324);
+};
+
+
+if (choiceArray[223]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.56083312322151);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.534588075357156);
+};
+
+
+if (choiceArray[224]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.08228772384774);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.06889063226576);
+};
+
+
+if (choiceArray[225]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.08040098311413);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.78861026023304);
+};
+
+
+if (choiceArray[226]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.89149142316475);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.97151131565493);
+};
+
+
+if (choiceArray[227]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.61034796347646);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.45031705837859);
+};
+
+
+if (choiceArray[228]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.81040871645867);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.10674185276222);
+};
+
+
+if (choiceArray[229]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.43626128328312);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.28863516257764);
+};
+
+
+if (choiceArray[230]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.09903221120825);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.09477213480863);
+};
+
+
+if (choiceArray[231]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.6543967377433);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.50135952530527);
+};
+
+
+if (choiceArray[232]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.11318945195409);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.12237659368738);
+};
+
+
+if (choiceArray[233]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.10253856374575);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.13927473960443);
+};
+
+
+if (choiceArray[234]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.29231981830476);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.73791573434209);
+};
+
+
+if (choiceArray[235]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.88205441767732);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.73661546115411);
+};
+
+
+if (choiceArray[236]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.49961393197913);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.41086176636795);
+};
+
+
+if (choiceArray[237]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.06249101468664);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.933089655141636);
+};
+
+
+if (choiceArray[238]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.4812580566896);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.023286881655345);
+};
+
+
+if (choiceArray[239]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.44918040547803);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.03611036011215);
+};
+
+
+if (choiceArray[240]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.07152765410571);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.754308570126334);
+};
+
+
+if (choiceArray[241]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.48868265927187);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.176930065569074);
+};
+
+
+if (choiceArray[242]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.33862907462479);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.24030925273324);
+};
+
+
+if (choiceArray[243]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.44218517516019);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.15079703461021);
+};
+
+
+if (choiceArray[244]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.05033527700141);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.16871665619574);
+};
+
+
+if (choiceArray[245]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.16826161398696);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.80293050759701);
+};
+
+
+if (choiceArray[246]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.67942188563002);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.75987413611953);
+};
+
+
+if (choiceArray[247]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.26902465341601);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.09423659585956);
+};
+
+
+if (choiceArray[248]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.8227387799622);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.956870132731304);
+};
+
+
+if (choiceArray[249]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.88307463299549);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.455925556116405);
+};
+
+
+if (choiceArray[250]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.0483680818793);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.049326306229815);
+};
+
+
+if (choiceArray[251]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.19252555589603);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.94464863452142);
+};
+
+
+if (choiceArray[252]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.2685760292569);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.99655680129673);
+};
+
+
+if (choiceArray[253]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.15730162266915);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.1102411015673);
+};
+
+
+if (choiceArray[254]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.08801846442542);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.04763932748245);
+};
+
+
+if (choiceArray[255]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.90411574758257);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.01222288256506);
+};
+
+
+if (choiceArray[256]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.03113732556979);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.93364882411335);
+};
+
+
+if (choiceArray[257]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.99315586973073);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.80029657753194);
+};
+
+
+if (choiceArray[258]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.58499651255475);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.39016015543512);
+};
+
+
+if (choiceArray[259]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.38864386468505);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.139809110767224);
+};
+
+
+if (choiceArray[260]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.31264786399305);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.26919009712826);
+};
+
+
+if (choiceArray[261]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.38849037194964);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.22019572075759);
+};
+
+
+if (choiceArray[262]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.95853813904583);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.55694203528247);
+};
+
+
+if (choiceArray[263]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.44882702768592);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.31288716973586);
+};
+
+
+if (choiceArray[264]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.54616041449098);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.156634726413486);
+};
+
+
+if (choiceArray[265]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.05788906399617);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.10219384110629);
+};
+
+
+if (choiceArray[266]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.35719201217152);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.15205819994251);
+};
+
+
+if (choiceArray[267]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.60531404806282);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.096447546300425);
+};
+
+
+if (choiceArray[268]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.34170536963306);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.83458052969306);
+};
+
+
+if (choiceArray[269]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.26597709276305);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.37282944836301);
+};
+
+
+if (choiceArray[270]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.2805044311562);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.25869101954161);
+};
+
+
+if (choiceArray[271]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.81073754416661);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.73083706016443);
+};
+
+
+if (choiceArray[272]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.43733253776085);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.38400965170433);
+};
+
+
+if (choiceArray[273]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.7719829933961);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.08236341798076);
+};
+
+
+if (choiceArray[274]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.62199036424842);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.374796979529705);
+};
+
+
+if (choiceArray[275]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.35163140085217);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.13886067848562);
+};
+
+
+if (choiceArray[276]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.2835411055688);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.02816732741101);
+};
+
+
+if (choiceArray[277]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.93008467656784);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.0400362395027);
+};
+
+
+if (choiceArray[278]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.41836393614611);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.18649077775832);
+};
+
+
+if (choiceArray[279]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.39740391842825);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.163310267946216);
+};
+
+
+if (choiceArray[280]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.65817943350761);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.445607104573135);
+};
+
+
+if (choiceArray[281]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.4647822035959);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.198518637962145);
+};
+
+
+if (choiceArray[282]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.46205134127509);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.99126503340746);
+};
+
+
+if (choiceArray[283]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.29057219354418);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.967202628804856);
+};
+
+
+if (choiceArray[284]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.29042707956282);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.983951092966045);
+};
+
+
+if (choiceArray[285]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.29896319349521);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.002044688353344);
+};
+
+
+if (choiceArray[286]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.28586073439527);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.94195438132942);
+};
+
+
+if (choiceArray[287]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.21025816499856);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.00193281174016);
+};
+
+
+if (choiceArray[288]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.45687716000315);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.05737659158579);
+};
+
+
+if (choiceArray[289]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.34835472205421);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.99551489468047);
+};
+
+
+if (choiceArray[290]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.81019153126361);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.8180963435111);
+};
+
+
+if (choiceArray[291]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.92368048713962);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.098383086974856);
+};
+
+
+if (choiceArray[292]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.8593592450084);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.03345794182626);
+};
+
+
+if (choiceArray[293]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.2219768262496);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.96829295383062);
+};
+
+
+if (choiceArray[294]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.24077834431456);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.939824300672356);
+};
+
+
+if (choiceArray[295]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.35281742308396);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.02943569146862);
+};
+
+
+if (choiceArray[296]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.2931152169075);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.82294898231426);
+};
+
+
+if (choiceArray[297]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.40069379783137);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.95340840666377);
+};
+
+
+if (choiceArray[298]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.26968101738075);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.8945155256771);
+};
+
+
+if (choiceArray[299]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.90550838724529);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.05610764579953);
+};
+
+
+if (choiceArray[300]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.63786475616854);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.206387973598765);
+};
+
+
+if (choiceArray[301]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.37181888399736);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.08826872797365);
+};
+
+
+if (choiceArray[302]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.27383868160146);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.06191617269212);
+};
+
+
+if (choiceArray[303]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.82206276600779);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.136897474821);
+};
+
+
+if (choiceArray[304]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.43016339279274);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.04664057427486);
+};
+
+
+if (choiceArray[305]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.99376306770819);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.7521502824219);
+};
+
+
+if (choiceArray[306]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.30178349242973);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.941716351109015);
+};
+
+
+if (choiceArray[307]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.96806951550549);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.05113902558263);
+};
+
+
+if (choiceArray[308]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.06903235502143);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.976754196969225);
+};
+
+
+if (choiceArray[309]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.43763696546374);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.06623357044218);
+};
+
+
+if (choiceArray[310]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.65629332394973);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.7004390523019);
+};
+
+
+if (choiceArray[311]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.01877468346112);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.967875438227985);
+};
+
+
+if (choiceArray[312]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.06185322751193);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.03395169495222);
+};
+
+
+if (choiceArray[313]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.25493399747023);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.916438412447775);
+};
+
+
+if (choiceArray[314]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.25985962743358);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.7807437088041);
+};
+
+
+if (choiceArray[315]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.31989639775122);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.06909193861709);
+};
+
+
+if (choiceArray[316]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.57523772967653);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.210608543264335);
+};
+
+
+if (choiceArray[317]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-118.60494236761463);
+Qualtrics.SurveyEngine.setEmbeddedData("y",34.16633259233429);
+};
+
+
+if (choiceArray[318]==true) {
+Qualtrics.SurveyEngine.setEmbeddedData("x",-117.77163237037668);
+Qualtrics.SurveyEngine.setEmbeddedData("y",33.89562605358266);
+};
