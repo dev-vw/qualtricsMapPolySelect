@@ -36,6 +36,8 @@ Qualtrics.SurveyEngine.addOnload(function() {
 
 Qualtrics.SurveyEngine.addOnReady(function() {
 
+    // custom error message
+    jQuery(".ValidationError").html("You selected a region (orange). <b>Please select a neighborhood (blue) or the region outside of LA/Orange counties (light grey).</b>");
     
     // create a variable, 'question', to represent 'this'
     question = this;
